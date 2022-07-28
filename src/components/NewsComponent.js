@@ -84,7 +84,7 @@ const NewsComponent =(props)=> {
   const[articles,setArticles]=useState([])
   const[loading,setLoading]=useState(true)
   const[page,setPage]=useState(1)
-  const[pageSize,setPageSize]=useState(5)
+  // const[pageSize,setPageSize]=useState(5)
   const[totalResults,setTotalResults]=useState(0)
   
   const updateNews=async()=>{
